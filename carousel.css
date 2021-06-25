@@ -66,8 +66,16 @@ body {
   line-height: 1;
   letter-spacing: -.05rem;
 }
-
-
+.col-md-5 {
+  overflow: hidden;
+}
+.col-md-5 img{
+  transform:scale(1,1);
+  transition: all 1s ease-out;
+}
+.col-md-5 img:hover{
+  transform:scale(1.2,1.2);
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
