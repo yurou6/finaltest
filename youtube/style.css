@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+}
+ul { 
+    display: inline-block; 
+    text-align: left; 
+    color:rgba(141, 146, 1, 0.664);
+}
+h2{
+/* 預留歌曲名稱顯示空間 */
+height: 32px;
+font-size: medium;
+}
